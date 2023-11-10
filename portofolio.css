@@ -1,0 +1,205 @@
+.divp1 {
+    display: inline-block;
+    position: relative;
+    left: 270px;
+    width: 250px;
+    background-color: rgb(45, 144, 144)
+}
+
+.h11 {
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-right: 30px;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.img {
+  margin-left: 30px;
+    width: 250px;
+}
+.img1 {
+  margin-left: 30px;
+    width: 250px;
+    margin-left: 30px;
+}
+.img2 {
+  margin-left: 30px;
+    width: 250px;
+    margin-top: 30px;
+}
+.img3 {
+  margin-left: 30px;
+    width: 250px;
+    margin-left: 30px;
+}
+.img4 {
+  margin-left: 30px;
+    width: 250px;
+    margin-top: 30px;
+}
+.div1 {
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    right: 250px;
+    top: 127px;
+    padding-bottom: 60px;
+}
+.st{
+    padding-top: 20px;
+    height: 60px;
+    padding-left: 43px;
+   
+  }
+  .st1{
+    
+    height: 60px;
+  
+  }
+  .st2{
+    height: 60px;
+  }
+  .hr1{
+    
+      margin-left: 30px;
+    
+      color: rgb(144, 142, 142);
+    }
+   
+  
+
+  body{
+    position: relative;
+    background-image: url(./concrete_seamless.png)
+  }
+  .a1{
+    text-decoration:none;
+    color:rgb(144, 142, 142);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .link{
+    display: inline-block;
+    position:absolute;
+    right: 270px;
+    top:30px;
+    line-height: 20px;
+  }
+  
+.head{
+
+   
+ background-color: white;
+
+    border-bottom: 1px solid gray;
+}
+
+
+h2{
+    font-weight:bolder;
+    font-size: 30px;
+    color: rgb(45, 144, 144);
+    margin: 30px 0px 30px 30px;
+  
+  }
+  .div3{
+border-color: white;
+    left: 270px;
+   position: absolute;
+  }
+  .sec1{
+  
+    margin-top: 40px;
+    display: inline-block;
+    background-color: white;
+    width: 700px;
+    height: 850px;
+    z-index: 1; 
+    margin-left: 270px;
+    }
+    h3{
+
+        padding-top: 30px;
+        text-align: center;
+        font-weight: bolder;
+        font-size:22px;
+        color: rgb(45, 144, 144);
+    }
+
+.foot{
+  position: relative;
+  text-align: center;
+  border-top: 8px solid aqua;
+  background-color: rgb(101, 98, 98);
+  height: 90px;
+  color: white;
+  padding-top: 20px;
+}
+.Hangman{
+background-color: rgb(45, 144, 144);
+color: white;
+font-weight: 100;
+font-size: 30px;
+position: absolute;
+margin-top: 160px;
+width: 250px;
+text-align: center;
+height: 50px;
+margin-left: 30px;
+}
+.rpg{
+    background-color: rgb(45, 144, 144);
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    width: 250px;
+text-align: center;
+height: 50px;
+margin-left: 314px;
+margin-top: 160px;
+}
+.trivia{
+    background-color: rgb(45, 144, 144);
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: 380px;
+    width: 250px;
+text-align: center;
+height: 50px;
+margin-left: 30px;
+}
+.rutgers{
+    background-color: rgb(45, 144, 144);
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: 380px;
+    margin-left: 314px;
+    width: 250px;
+    height: 50px;
+}
+.rock{
+    background-color: rgb(45, 144, 144);
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    margin-top:600px;
+    margin-left: 30px;
+}
+.div5{
+    padding-top: 30px;
+}
