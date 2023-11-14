@@ -59,6 +59,16 @@ h1{
   color:rgb(144, 142, 142);
   font-size: 20px;
   font-weight: 300;
+
+}
+li{
+padding-right: 7px;
+margin-right: 20px;
+font-size: 20PX;
+  position: relative;
+  display: inline-block;  
+  text-decoration:none;
+ 
 }
 .button{
   font-size: 15px;
@@ -82,11 +92,15 @@ body{
 .head{
   background-color: white;
   border-bottom: 1px solid gray;
-  
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+
   
 
 }
 .link{
+  list-style: none;
   display: inline-block;
   position:absolute;
   right: 270px;
@@ -96,8 +110,8 @@ body{
 
 .sec1{
 
-margin-top: 40px;
-display: inline-block;
+  margin-top: 120px;
+  display: inline-block;
 background-color: white;
 width: 700px;
 height: 500px;
@@ -158,4 +172,13 @@ margin-left: 270px;
     height: 90px;
   color: white;
   padding: 35px;
+}
+.link li+li::before{
+content: "";
+height: 7px;
+border-right: 1px solid gray;
+position: absolute;
+top:10px;
+left:-15px;
+
 }

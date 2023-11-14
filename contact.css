@@ -18,13 +18,22 @@
 
 }
 
-.a1 {
-    text-decoration: none;
-    color: rgb(144, 142, 142);
+.a1{
+    text-decoration:none;
+    color:rgb(144, 142, 142);
     font-size: 20px;
     font-weight: 300;
-}
-
+  
+  }
+  li{
+  padding-right: 7px;
+  margin-right: 20px;
+  font-size: 20PX;
+    position: relative;
+    display: inline-block;  
+    text-decoration:none;
+   
+  }
 h2 {
     font-weight: bolder;
     font-size: 30px;
@@ -34,7 +43,9 @@ h2 {
 }
 
 .head {
-    
+    z-index: 1;
+    width: 100%;
+position: fixed;
     background-color: white;
     border-bottom: 1px solid gray;
 
@@ -96,7 +107,7 @@ h3 {
 
 .sec1 {
 
-    margin-top: 40px;
+    margin-top: 120px;
     display: inline-block;
     background-color: white;
     width: 700px;
@@ -192,3 +203,12 @@ h3 {
     color: rgb(144, 142, 142);
 
 }
+.link li+li::before{
+    content: "";
+    height: 7px;
+    border-right: 1px solid gray;
+    position: absolute;
+    top:10px;
+    left:-15px;
+    
+    }
